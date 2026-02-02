@@ -4,3 +4,6 @@ node_modules
 .env.local
 uploads
 dist
+firebase-service-account.json
+keys/
+*.json
