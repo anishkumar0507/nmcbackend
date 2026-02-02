@@ -5,12 +5,11 @@
   "description": "Backend server for Satark AI Compliance Auditor",
   "main": "index.js",
   "scripts": {
-    "start": "node --max-old-space-size=2048 index.js",
+    "start": "node index.js",
     "dev": "node --max-old-space-size=2048 index.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "@types/react-router-dom": "^5.3.3",
     "axios": "^1.13.2",
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
@@ -25,7 +24,6 @@
     "multer": "^1.4.5-lts.1",
     "openai": "^4.104.0",
     "pdf-parse": "^1.1.1",
-    "react-router-dom": "^7.13.0",
     "tesseract.js": "^5.1.1"
   },
   "devDependencies": {

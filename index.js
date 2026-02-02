@@ -67,22 +67,53 @@ const app = express();
 // =======================================================
 // MIDDLEWARE - REGISTER BEFORE ROUTES
 // =======================================================
-const allowedOrigins = new Set(
-  [
-    process.env.FRONTEND_URL,
+function parseAllowedOrigins() {
+  const raw = [
+    process.env.FRONTEND_URLS, // comma-separated
+    process.env.FRONTEND_URL,  // single
+  ]
+    .filter(Boolean)
+    .join(",");
+
+  const envOrigins = raw
+    .split(",")
+    .map((s) => s.trim())
+    .filter(Boolean)
+    .map((s) => s.replace(/\/+$/, ""));
+
+  const defaults = [
     "http://localhost:3000",
     "http://localhost:3002",
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:4173",
+    "http://localhost:5200",
+    "http://localhost:5201",
     "http://127.0.0.1:3000",
-    "http://127.0.0.1:3002"
-  ].filter(Boolean)
-);
+    "http://127.0.0.1:3002",
+    "http://127.0.0.1:5173",
+    "http://127.0.0.1:5174",
+    "http://127.0.0.1:4173",
+    "http://127.0.0.1:5200",
+    "http://127.0.0.1:5201",
+  ];
+
+  return new Set([...defaults, ...envOrigins]);
+}
+
+const allowedOrigins = parseAllowedOrigins();
 
 app.use(
   cors({
     origin: (origin, cb) => {
       // Allow non-browser clients (curl, server-to-server) with no origin header
       if (!origin) return cb(null, true);
-      if (allowedOrigins.has(origin)) return cb(null, true);
+      const normalized = origin.replace(/\/+$/, "");
+      // Allow any localhost/127.0.0.1 port for local development
+      if (/^http:\/\/(localhost|127\.0\.0\.1):\d+$/i.test(normalized)) {
+        return cb(null, true);
+      }
+      if (allowedOrigins.has(normalized)) return cb(null, true);
       console.warn(`⚠️  CORS blocked request from origin: ${origin}`);
       return cb(new Error("Not allowed by CORS"));
     },
@@ -95,6 +126,11 @@ app.use(express.urlencoded({ extended: true }));
 // =======================================================
 // ROUTES - REGISTER ALL ROUTES BEFORE app.listen()
 // =======================================================
+
+// Root route (deployment sanity check)
+app.get("/", (_, res) => {
+  res.json({ status: "OK", message: "Backend is running" });
+});
 
 // Hard test route - MUST work
 app.get("/ping", (req, res) => {
@@ -160,14 +196,16 @@ async function initializeServices() {
 }
 
 // =======================================================
-// START SERVER - LISTEN ON EXACT PORT 3001
+// START SERVER - LISTEN ON process.env.PORT || 3001
 // =======================================================
-app.listen(3001, () => {
-  console.log("Server running on 3001");
+const port = Number(process.env.PORT) || 3001;
+
+app.listen(port, () => {
+  console.log(`Server running on ${port}`);
   console.log("Test routes:");
-  console.log("  http://localhost:3001/ping");
-  console.log("  http://localhost:3001/health");
-  console.log("  http://localhost:3001/auth/google");
+  console.log(`  http://localhost:${port}/`);
+  console.log(`  http://localhost:${port}/ping`);
+  console.log(`  http://localhost:${port}/health`);
   
   // Validate environment variables (warn but don't exit)
   if (!process.env.OPENAI_API_KEY) {
