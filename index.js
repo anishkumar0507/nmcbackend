@@ -81,7 +81,13 @@ function parseAllowedOrigins() {
     .filter(Boolean)
     .map((s) => s.replace(/\/+$/, ""));
 
-  const defaults = [
+  // Production frontend (Render): lock down to the public domain.
+  const prodOrigins = [
+    "https://www.nextdoc.in",
+  ];
+
+  // Local development helpers (only for http://localhost / 127.0.0.1)
+  const devDefaults = [
     "http://localhost:3000",
     "http://localhost:3002",
     "http://localhost:5173",
@@ -98,7 +104,7 @@ function parseAllowedOrigins() {
     "http://127.0.0.1:5201",
   ];
 
-  return new Set([...defaults, ...envOrigins]);
+  return new Set([...prodOrigins, ...devDefaults, ...envOrigins]);
 }
 
 const allowedOrigins = parseAllowedOrigins();
@@ -115,9 +121,13 @@ app.use(
       }
       if (allowedOrigins.has(normalized)) return cb(null, true);
       console.warn(`⚠️  CORS blocked request from origin: ${origin}`);
-      return cb(new Error("Not allowed by CORS"));
+      // Explicitly reject unknown origins without throwing to keep API stable
+      return cb(null, false);
     },
-    credentials: true
+    credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+    optionsSuccessStatus: 200,
   })
 );
 app.use(express.json({ limit: '50mb' }));
