@@ -1,0 +1,200 @@
+[
+  {
+    "id": "em-19b8cb08abf6d1fe",
+    "emailId": "19b8cb08abf6d1fe",
+    "sender": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "from": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "subject": "Hy",
+    "date": "Mon, 5 Jan 2026 11:15:23 +0530",
+    "receivedAt": 1767591923000,
+    "body": "Hello\r\n",
+    "htmlBody": "<div dir=\"auto\">Hello </div>\r\n",
+    "hasAttachments": true,
+    "isUnread": true,
+    "score": 5,
+    "status": "Non-Compliant",
+    "summary": "The video content contains critical violations of Indian healthcare advertising regulations. The primary and most severe violation is the unsubstantiated claim of 'complete recovery' for diabetes, which is explicitly prohibited under the Drugs and Magic Remedies Act and Schedule J of the Drugs and Cosmetics Rules. Additionally, other claims regarding efficacy, speed of results, and the 'breakthrough' nature of the treatment are exaggerated and lack proper scientific substantiation, violating ASCI guidelines. No direct data protection violations were identified in the provided content as it does not involve the processing of personal data.",
+    "financialPenalty": {
+      "riskLevel": "High",
+      "description": "Immediately cease dissemination of this advertisement. All claims of cure or complete recovery for diabetes must be removed. All other efficacy claims must be thoroughly reviewed and substantiated with robust, verifiable scientific evidence, or removed if substantiation is not available. Ensure future advertisements comply strictly with the Drugs and Magic Remedies Act, Drugs and Cosmetics Act (Schedule J), and ASCI Healthcare Guidelines to prevent misleading the public and ensure patient safety."
+    },
+    "ethicalMarketing": {
+      "score": 5,
+      "assessment": "The video content contains critical violations of Indian healthcare advertising regulations. The primary and most severe violation is the unsubstantiated claim of 'complete recovery' for diabetes, which is explicitly prohibited under the Drugs and Magic Remedies Act and Schedule J of the Drugs and Cosmetics Rules. Additionally, other claims regarding efficacy, speed of results, and the 'breakthrough' nature of the treatment are exaggerated and lack proper scientific substantiation, violating ASCI guidelines. No direct data protection violations were identified in the provided content as it does not involve the processing of personal data."
+    },
+    "violations": [
+      {
+        "severity": "Critical",
+        "regulation": "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954; Drugs and Cosmetics Act, 1940 & Rules (Schedule J)",
+        "description": "The advertisement makes a prohibited claim of 'complete recovery' for diabetes, a disease explicitly listed in Schedule J of the Drugs and Cosmetics Rules and prohibited from claims of cure under the Drugs and Magic Remedies Act. Such claims are highly misleading and dangerous for public health.",
+        "problematicContent": "Speaker 2: \"Yes, and we've seen complete recovery in over 90% of cases. This is a breakthrough treatment for diabetes management.\"",
+        "englishTranslation": "N/A",
+        "suggestion": "Immediately remove all claims of cure, complete recovery, or eradication for diabetes. Ensure all claims are limited to management and are scientifically substantiated and compliant with Schedule J restrictions.",
+        "solution": "Immediately remove all claims of cure, complete recovery, or eradication for diabetes. Ensure all claims are limited to management and are scientifically substantiated and compliant with Schedule J restrictions."
+      },
+      {
+        "severity": "High",
+        "regulation": "ASCI Healthcare Guidelines; Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 (Section 4 - Misleading Advertisements)",
+        "description": "The advertisement contains unsubstantiated and exaggerated claims regarding product efficacy and speed of results ('remarkable results,' 'significant improvement within just 7 days,' 'breakthrough treatment'). These claims lack specific, verifiable scientific evidence and can mislead consumers, violating principles of truthful and honest advertising.",
+        "problematicContent": "Speaker 1: \"This product has shown remarkable results in clinical trials. Patients report significant improvement within just 7 days.\" Speaker 2: \"This is a breakthrough treatment for diabetes management.\"",
+        "englishTranslation": "N/A",
+        "suggestion": "Provide robust, peer-reviewed scientific evidence, including specific data from clinical trials, to substantiate all efficacy claims. Avoid superlative or vague terms like 'remarkable' or 'breakthrough' without clear, objective, and verifiable substantiation. If claims cannot be substantiated, they must be removed.",
+        "solution": "Provide robust, peer-reviewed scientific evidence, including specific data from clinical trials, to substantiate all efficacy claims. Avoid superlative or vague terms like 'remarkable' or 'breakthrough' without clear, objective, and verifiable substantiation. If claims cannot be substantiated, they must be removed."
+      }
+    ],
+    "timestamp": 1767613744020,
+    "inputType": "Video",
+    "category": "Pharmaceuticals",
+    "transcription": "[VIDEO TRANSCRIPTION MOCK]\nFile: 1000092244.mp4\nDuration: ~2:30\n\nSpeaker 1: \"This product has shown remarkable results in clinical trials. Patients report significant improvement within just 7 days.\"\n\nSpeaker 2: \"Yes, and we've seen complete recovery in over 90% of cases. This is a breakthrough treatment for diabetes management.\"\n\n[Note: This is a mock transcription. In production, integrate with actual video transcription service like Google Speech-to-Text or OpenAI Whisper.]",
+    "rulesTriggered": [
+      "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 (Section 3(d), Section 4)",
+      "Drugs and Cosmetics Act, 1940 & Rules (Schedule J)",
+      "ASCI Healthcare Guidelines (Chapter I - General Principles, Chapter III - Specific Guidelines for Healthcare Advertising)"
+    ]
+  },
+  {
+    "id": "em-19b8cf59c503139b",
+    "emailId": "19b8cf59c503139b",
+    "sender": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "from": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "subject": "Hi",
+    "date": "Mon, 5 Jan 2026 12:30:51 +0530",
+    "receivedAt": 1767596451000,
+    "body": "https://drive.google.com/drive/folders/1cueYVb6yQ98FzTaxcV6VmlD1c8fhNeHG\r\n",
+    "htmlBody": "<div dir=\"auto\"><a href=\"https://drive.google.com/drive/folders/1cueYVb6yQ98FzTaxcV6VmlD1c8fhNeHG\">https://drive.google.com/drive/folders/1cueYVb6yQ98FzTaxcV6VmlD1c8fhNeHG</a></div>\r\n",
+    "hasAttachments": false,
+    "isUnread": true,
+    "score": 0,
+    "status": "Non-Compliant",
+    "summary": "The audit could not be completed because the email content was provided as a Google Drive link, which I am unable to access due to security protocols and my inability to browse the live internet or private cloud storage. Therefore, no compliance violations could be identified or assessed against the specified framework.",
+    "financialPenalty": {
+      "riskLevel": "High",
+      "description": "To proceed with the compliance audit, please provide the complete email body content directly within the prompt. Once the content is accessible, I can perform a thorough analysis against the Indian Healthcare and Data Protection regulations."
+    },
+    "ethicalMarketing": {
+      "score": 0,
+      "assessment": "The audit could not be completed because the email content was provided as a Google Drive link, which I am unable to access due to security protocols and my inability to browse the live internet or private cloud storage. Therefore, no compliance violations could be identified or assessed against the specified framework."
+    },
+    "violations": [
+      {
+        "severity": "Critical",
+        "regulation": "AI System Limitation",
+        "description": "The audit could not be performed as the email content was provided via an inaccessible Google Drive link. As an AI, I cannot browse external websites or access private cloud storage for security and privacy reasons.",
+        "problematicContent": "https://drive.google.com/drive/folders/1cueYVb6yQ98FzTaxcV6VmlD1c8fhNeHG",
+        "englishTranslation": "N/A",
+        "suggestion": "Please provide the email content directly in the prompt, rather than as an external link, to enable the audit.",
+        "solution": "Please provide the email content directly in the prompt, rather than as an external link, to enable the audit."
+      }
+    ],
+    "timestamp": 1767596503345,
+    "inputType": "Text",
+    "category": "Pharmaceuticals",
+    "rulesTriggered": []
+  },
+  {
+    "id": "em-19b8cb08abf6d1fe",
+    "emailId": "19b8cb08abf6d1fe",
+    "sender": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "from": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "subject": "Hy",
+    "date": "Mon, 5 Jan 2026 11:15:23 +0530",
+    "receivedAt": 1767591923000,
+    "body": "Hello\r\n",
+    "htmlBody": "<div dir=\"auto\">Hello </div>\r\n",
+    "hasAttachments": true,
+    "isUnread": true,
+    "score": 5,
+    "status": "Non-Compliant",
+    "summary": "The video content contains severe violations of Indian healthcare advertising regulations. It makes unsubstantiated and misleading claims of 'complete recovery' and 'breakthrough treatment' for diabetes, a disease explicitly listed in Schedule J, for which claims of cure are prohibited. Multiple claims lack scientific substantiation and are likely to deceive consumers. No direct data protection violations were identified based solely on the provided content.",
+    "financialPenalty": {
+      "riskLevel": "High",
+      "description": "Immediately withdraw the advertisement. Conduct a thorough review of all marketing materials to ensure strict compliance with the Drugs and Magic Remedies Act, Drugs and Cosmetics Act (especially Schedule J), and ASCI Healthcare Guidelines. All health claims must be scientifically substantiated and avoid any implication of cure for prohibited diseases. Implement a robust internal review process for all advertising content."
+    },
+    "ethicalMarketing": {
+      "score": 5,
+      "assessment": "The video content contains severe violations of Indian healthcare advertising regulations. It makes unsubstantiated and misleading claims of 'complete recovery' and 'breakthrough treatment' for diabetes, a disease explicitly listed in Schedule J, for which claims of cure are prohibited. Multiple claims lack scientific substantiation and are likely to deceive consumers. No direct data protection violations were identified based solely on the provided content."
+    },
+    "violations": [
+      {
+        "severity": "Critical",
+        "regulation": "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954; Drugs and Cosmetics Act, 1940 & Rules (Schedule J)",
+        "description": "The advertisement makes direct claims of 'complete recovery' and presents the product as a 'breakthrough treatment' for diabetes. Diabetes is explicitly listed in Schedule J of the Drugs and Cosmetics Rules, 1945, and the Drugs and Magic Remedies Act, 1954, prohibits advertisements claiming to cure or prevent such diseases.",
+        "problematicContent": "'complete recovery in over 90% of cases. This is a breakthrough treatment for diabetes management.'",
+        "englishTranslation": "N/A",
+        "suggestion": "Immediately cease all advertising making claims of cure, recovery, or significant management for diabetes. Review all product claims to ensure strict compliance with Schedule J and the Drugs and Magic Remedies Act, 1954.",
+        "solution": "Immediately cease all advertising making claims of cure, recovery, or significant management for diabetes. Review all product claims to ensure strict compliance with Schedule J and the Drugs and Magic Remedies Act, 1954."
+      },
+      {
+        "severity": "High",
+        "regulation": "ASCI Healthcare Guidelines; Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+        "description": "The advertisement contains unsubstantiated and potentially misleading claims such as 'remarkable results,' 'significant improvement within just 7 days,' and 'complete recovery in over 90% of cases.' These claims lack robust scientific substantiation and are likely to deceive consumers, violating ASCI guidelines for truthfulness and substantiation.",
+        "problematicContent": "'This product has shown remarkable results in clinical trials. Patients report significant improvement within just 7 days.' and 'we've seen complete recovery in over 90% of cases.'",
+        "englishTranslation": "N/A",
+        "suggestion": "All claims must be truthful, honest, and substantiated by robust scientific evidence. Remove all unsubstantiated claims. If clinical trial data exists, it must be presented accurately and without exaggeration, along with necessary disclaimers.",
+        "solution": "All claims must be truthful, honest, and substantiated by robust scientific evidence. Remove all unsubstantiated claims. If clinical trial data exists, it must be presented accurately and without exaggeration, along with necessary disclaimers."
+      }
+    ],
+    "timestamp": 1767596348951,
+    "inputType": "Video",
+    "category": "Pharmaceuticals",
+    "transcription": "[VIDEO TRANSCRIPTION MOCK]\nFile: 1000092244.mp4\nDuration: ~2:30\n\nSpeaker 1: \"This product has shown remarkable results in clinical trials. Patients report significant improvement within just 7 days.\"\n\nSpeaker 2: \"Yes, and we've seen complete recovery in over 90% of cases. This is a breakthrough treatment for diabetes management.\"\n\n[Note: This is a mock transcription. In production, integrate with actual video transcription service like Google Speech-to-Text or OpenAI Whisper.]",
+    "rulesTriggered": [
+      "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954 - Section 3(a), 3(d)",
+      "Drugs and Cosmetics Act, 1940 & Rules - Schedule J",
+      "ASCI Healthcare Guidelines - Chapter I (1.1, 1.2, 1.3), Chapter II (2.1)"
+    ]
+  },
+  {
+    "id": "em-19b8cb08abf6d1fe",
+    "emailId": "19b8cb08abf6d1fe",
+    "sender": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "from": "Piyush Kumar <kumarchoudhary3177@gmail.com>",
+    "subject": "Hy",
+    "date": "Mon, 5 Jan 2026 11:15:23 +0530",
+    "receivedAt": 1767591923000,
+    "body": "Hello\r\n",
+    "htmlBody": "<div dir=\"auto\">Hello </div>\r\n",
+    "hasAttachments": true,
+    "isUnread": true,
+    "score": 5,
+    "status": "Non-Compliant",
+    "summary": "The video content contains highly problematic and illegal claims regarding the 'complete recovery' and 'breakthrough treatment' for diabetes. Diabetes is a chronic condition explicitly listed under Schedule J of the Drugs and Cosmetics Rules and the Schedule to the Drugs and Magic Remedies Act, prohibiting such advertisements. The claims are unsubstantiated, misleading, and violate multiple Indian healthcare advertising regulations. No data protection violations were identified based on the provided content, as no personal data was present.",
+    "financialPenalty": {
+      "riskLevel": "High",
+      "description": "Immediately withdraw the advertisement. All claims related to health products, especially for chronic diseases like diabetes, must strictly adhere to the Drugs and Magic Remedies Act, Drugs and Cosmetics Act (Schedule J), and ASCI guidelines. Ensure all future advertisements are factually accurate, substantiated by scientific evidence, and avoid making claims of cure or complete recovery for prohibited diseases. Implement a rigorous internal review process for all marketing materials to prevent similar violations."
+    },
+    "ethicalMarketing": {
+      "score": 5,
+      "assessment": "The video content contains highly problematic and illegal claims regarding the 'complete recovery' and 'breakthrough treatment' for diabetes. Diabetes is a chronic condition explicitly listed under Schedule J of the Drugs and Cosmetics Rules and the Schedule to the Drugs and Magic Remedies Act, prohibiting such advertisements. The claims are unsubstantiated, misleading, and violate multiple Indian healthcare advertising regulations. No data protection violations were identified based on the provided content, as no personal data was present."
+    },
+    "violations": [
+      {
+        "severity": "Critical",
+        "regulation": "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954; Drugs and Cosmetics Act, 1940 & Rules (Schedule J)",
+        "description": "The advertisement makes explicit claims of 'complete recovery' and 'breakthrough treatment' for diabetes. Diabetes is a disease listed in the Schedule to the Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954, and also in Schedule J of the Drugs and Cosmetics Rules, 1945. Advertising a cure or complete recovery for such diseases is strictly prohibited and constitutes a critical violation.",
+        "problematicContent": "'complete recovery in over 90% of cases. This is a breakthrough treatment for diabetes management.'",
+        "englishTranslation": "N/A",
+        "suggestion": "Immediately cease all advertising making claims of cure, complete recovery, or breakthrough treatment for diabetes. Review all promotional materials to ensure no Schedule J disease claims are made. All claims must be supported by robust, peer-reviewed scientific evidence and comply with regulatory approvals.",
+        "solution": "Immediately cease all advertising making claims of cure, complete recovery, or breakthrough treatment for diabetes. Review all promotional materials to ensure no Schedule J disease claims are made. All claims must be supported by robust, peer-reviewed scientific evidence and comply with regulatory approvals."
+      },
+      {
+        "severity": "High",
+        "regulation": "ASCI Healthcare Guidelines; Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+        "description": "The advertisement contains unsubstantiated and potentially misleading claims such as 'remarkable results,' 'significant improvement within just 7 days,' and 'complete recovery in over 90% of cases.' These claims lack specific scientific evidence within the advertisement and are likely to mislead consumers, violating ASCI guidelines for truthful and honest advertising and the general principles of the DMR Act against misleading advertisements.",
+        "problematicContent": "'This product has shown remarkable results in clinical trials. Patients report significant improvement within just 7 days.' and 'we've seen complete recovery in over 90% of cases.'",
+        "englishTranslation": "N/A",
+        "suggestion": "Remove all unsubstantiated claims. Any claims made must be factual, verifiable, and supported by adequate scientific evidence. Include necessary disclaimers regarding individual results may vary, and always advise consulting a healthcare professional. Avoid absolute claims like 'complete recovery' without irrefutable evidence and regulatory approval.",
+        "solution": "Remove all unsubstantiated claims. Any claims made must be factual, verifiable, and supported by adequate scientific evidence. Include necessary disclaimers regarding individual results may vary, and always advise consulting a healthcare professional. Avoid absolute claims like 'complete recovery' without irrefutable evidence and regulatory approval."
+      }
+    ],
+    "timestamp": 1767596201988,
+    "inputType": "Video",
+    "category": "Pharmaceuticals",
+    "transcription": "[VIDEO TRANSCRIPTION MOCK]\nFile: 1000092244.mp4\nDuration: ~2:30\n\nSpeaker 1: \"This product has shown remarkable results in clinical trials. Patients report significant improvement within just 7 days.\"\n\nSpeaker 2: \"Yes, and we've seen complete recovery in over 90% of cases. This is a breakthrough treatment for diabetes management.\"\n\n[Note: This is a mock transcription. In production, integrate with actual video transcription service like Google Speech-to-Text or OpenAI Whisper.]",
+    "rulesTriggered": [
+      "Drugs and Magic Remedies (Objectionable Advertisements) Act, 1954",
+      "Drugs and Cosmetics Act, 1940 & Rules (Schedule J)",
+      "ASCI Healthcare Guidelines"
+    ]
+  }
+]
